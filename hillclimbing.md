@@ -28,11 +28,14 @@ while (failCount < 10000):         #如果"連續失敗"一萬次離開
     return (x,y,fxy)               #結束回傳(已經爬到最高點)
 ```
 均點分布random.uniform(-h,h)
-<img src = 'https://github.com/syuan0327/ai109b/blob/main/h3.JPG' width="600" height="400" >
+
+<img src = 'https://github.com/syuan0327/ai109b/blob/main/h3.JPG' width="500"  >
+
 優點：簡單
 
 缺點：機率較圓形分布不均
-<img src = 'https://github.com/syuan0327/ai109b/blob/main/h4.JPG' width="600" height="400" >
+
+<img src = 'https://github.com/syuan0327/ai109b/blob/main/h4.JPG' width="500"  >
 
 
 
