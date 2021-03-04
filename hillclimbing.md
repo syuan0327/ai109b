@@ -54,7 +54,7 @@ class SolutionArray(Solution):
         return SolutionArray(nv)                    #  傳回新建的鄰居解答。
 
     def energy(self):      #  能量函數
-        x, y, z =self.v    #self.v=3(3個維度)
+        x, y, z =self.v    #self.v=3(3個維度x,y,z)
         return x*x+3*y*y+z*z-4*x-3*y-5*z+8         #  (x^2+3y^2+z^2-4x-3y-5z+8)
 
     def str(self):    #  將解答轉為字串的函數，以供列印用。
