@@ -63,6 +63,7 @@ class SolutionArray(Solution):
 
 #### self之解釋
 [參考網址](https://www.learncodewithmike.com/2020/01/python-class.html)
+
 <img src='https://github.com/syuan0327/ai109b/blob/main/self.JPG' width="500">
 
 ## 模擬退火法
