@@ -31,7 +31,7 @@ while (failCount < 10000):         #如果"連續失敗"一萬次離開
 ```
 random.uniform(-h,h)
 ```
-<img src = 'https://github.com/syuan0327/ai109b/blob/main/h3.JPG' width="500"  >
+<img src = 'https://github.com/syuan0327/ai109b/blob/main/h3.JPG' width="400"  >
 
 優點：簡單
 
