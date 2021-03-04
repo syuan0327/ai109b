@@ -2,11 +2,11 @@
 #### 一維爬山演算法
 如何找出 x^2+3x+5 圖形的最低點?
 
-<img src='https://github.com/syuan0327/ai109b/blob/main/h1.JPG'with="600" heigh="400" >
+<img src='https://github.com/syuan0327/ai109b/blob/main/h1.JPG' width="600" height="400" >
 
 首先先乘(-1)
 
-<img src='https://github.com/syuan0327/ai109b/blob/main/h2.JPG'with="600" heigh="400" >
+<img src='https://github.com/syuan0327/ai109b/blob/main/h2.JPG' width="600" height="400" >
 
 爬山演算法只能找到局部最佳解，因為爬到一個山頂後就會停止
 
@@ -28,11 +28,11 @@ while (failCount < 10000):         #如果"連續失敗"一萬次離開
     return (x,y,fxy)               #結束回傳(已經爬到最高點)
 ```
 均點分布random.uniform(-h,h)
-<img src = 'https://github.com/syuan0327/ai109b/blob/main/h3.JPG'with="600" heigh="400" >
+<img src = 'https://github.com/syuan0327/ai109b/blob/main/h3.JPG' width="600" height="400" >
 優點：簡單
 
 缺點：機率較圓形分布不均
-<img src = 'https://github.com/syuan0327/ai109b/blob/main/h4.JPG'with="600" heigh="400" >
+<img src = 'https://github.com/syuan0327/ai109b/blob/main/h4.JPG' width="600" height="400" >
 
 
 
