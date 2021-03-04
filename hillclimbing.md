@@ -2,11 +2,11 @@
 #### 一維爬山演算法
 如何找出 x^2+3x+5 圖形的最低點?
 
-<img src='https://github.com/syuan0327/ai109b/blob/main/h1.JPG' width="600" height="400" >
+<img src='https://github.com/syuan0327/ai109b/blob/main/h1.JPG' width="500"  >
 
 首先先乘(-1)
 
-<img src='https://github.com/syuan0327/ai109b/blob/main/h2.JPG' width="600" height="400" >
+<img src='https://github.com/syuan0327/ai109b/blob/main/h2.JPG' width="500"  >
 
 爬山演算法只能找到局部最佳解，因為爬到一個山頂後就會停止
 
