@@ -41,3 +41,35 @@ random.uniform(-h,h)
 
 
 
+#### solutionArray.py
+```
+class SolutionArray(Solution):
+    def neighbor(self):    #  多變數解答的鄰居函數。
+        nv = self.v.copy()                   #  nv=v.clone()=目前解答的複製品=3(x,y,z)
+        i = randint(0, len(nv)-1) #  隨機選取一個變數 0~2之間選一個數改變
+        if (random() > 0.5):                    #  擲骰子決定要往左或往右移
+            nv[i] += self.step
+        else:
+            nv[i] -= self.step
+        return SolutionArray(nv)                    #  傳回新建的鄰居解答。
+
+    def energy(self):      #  能量函數
+        x, y, z =self.v    #self.v=3(3個維度)
+        return x*x+3*y*y+z*z-4*x-3*y-5*z+8         #  (x^2+3y^2+z^2-4x-3y-5z+8)
+
+    def str(self):    #  將解答轉為字串的函數，以供列印用。
+        return "energy({:s})={:f}".format(str(self.v), self.energy())
+```
+
+#### self之解釋
+[參考網址](https://www.learncodewithmike.com/2020/01/python-class.html)
+<img src='https://github.com/syuan0327/ai109b/blob/main/self.JPG' width="500">
+
+#### 模擬退火法
+
+原子原來會停留在使內能有局部最小值的位置，加熱使能量變大，原子會離開原來位置，而隨機在其他位置中移動。退火冷卻時速度較慢，使得原子有較多可能可以找到比原先更低的位置。[參考網址](https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E9%80%80%E7%81%AB)
+
+<img src='https://github.com/syuan0327/ai109b/blob/main/fire.JPG' width="500">
+可以爬出小窟巄
+
+和爬山(次數)很像但是是用溫度及機率算
