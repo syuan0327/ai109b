@@ -69,7 +69,7 @@ class SolutionArray(Solution):
 
 原子原來會停留在使內能有局部最小值的位置，加熱使能量變大，原子會離開原來位置，而隨機在其他位置中移動。退火冷卻時速度較慢，使得原子有較多可能可以找到比原先更低的位置。[參考網址](https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E9%80%80%E7%81%AB)
 
-<img src='https://github.com/syuan0327/ai109b/blob/main/fire.JPG' width="500">
+<img src='https://github.com/syuan0327/ai109b/blob/main/fire1.JPG' width="500">
 可以爬出小窟巄
 
 和爬山(次數)很像但是是用溫度及機率算
